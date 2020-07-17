@@ -18,8 +18,8 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from Escuela.Clase.views import ClaseViewSet
-from Escuela.Estudiante.views import EstudianteViewSet
+from Clase.views import ClaseViewSet
+from Estudiante.views import EstudianteViewSet
 
 router = DefaultRouter()
 router.register(r'clase', ClaseViewSet)

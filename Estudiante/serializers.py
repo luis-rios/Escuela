@@ -1,4 +1,4 @@
-from Escuela import Estudiante
+from .models import Estudiante
 from rest_framework import serializers
 
 

@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-from Escuela.Clase.models import Clase
+from Clase.models import Clase
 
 
 class Estudiante(models.Model):

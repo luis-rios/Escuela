@@ -2,9 +2,12 @@ from django.shortcuts import render
 from rest_framework import viewsets
 
 # Create your views here.
-from Escuela.Clase.models import Clase
-from Escuela.Clase.serializers import ClaseSerializer
-from core.pagination import StandarResultsSetPagination
+from Clase.models import Clase
+from Clase.serializers import ClaseSerializer
+
+
+class StandardResultsSetPagination(object):
+    pass
 
 
 class ClaseViewSet(viewsets.ModelViewSet):
